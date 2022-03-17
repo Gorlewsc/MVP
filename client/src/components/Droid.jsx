@@ -44,7 +44,7 @@ function Droid(props) {
           />
           ))}
         </div>
-        <div className='wiki-link'>For more info, visit <a href={props.droid.wiki}>this wiki link</a></div>
+        <div className='wiki-link'>For more info, visit <a href={props.droid.wiki} target="_blank" rel="noreferrer noopener">this wiki link</a></div>
       </div>
     </div>
   )
