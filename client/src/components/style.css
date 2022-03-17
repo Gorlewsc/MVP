@@ -1,6 +1,85 @@
+@font-face {
+  font-family: "StarWars";
+  src:url("../SWFont2.ttf");
+}
+
+body {
+  background-image: url('https://wallpapercave.com/wp/wp2572367.jpg');
+  color: #FFE81F;
+  font-family: "StarWars", sans-serif;
+  font-size: 20px;
+  text-shadow: 4px 4px 4px rgb(83, 81, 81);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
 img {
-  float: left;
-  width:  100px;
-  height: 100px;
+  height: 500px;
   object-fit: cover;
+}
+
+.character-info-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  margin-top: 155px;
+}
+
+.droid-info-container {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  margin-top: 155px;
+}
+
+.character-affiliations {
+  margin-top: 20px;
+}
+
+.droid-affiliations {
+  margin-top: 20px;
+}
+
+.droid-equipment {
+  margin-top: 20px;
+}
+
+.character-former-affiliations {
+  margin-top: 20px;
+}
+
+.character-masters {
+  margin-top: 20px;
+}
+
+.character-apprentices {
+  margin-top: 20px;
+}
+
+.wiki-link {
+  margin-top: 20px;
+}
+
+.searchButton {
+  font-family: "StarWars", sans-serif;
+  background: #2b2b2b;
+  color: #FFE81F;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.25rem;
+}
+
+.searchBar {
+  margin-left: 25px;
+}
+
+.searchResult:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
