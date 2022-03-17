@@ -14,6 +14,8 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -77,6 +79,12 @@ img {
 
 .searchBar {
   margin-left: 25px;
+}
+
+.searchResults {
+  border: solid;
+  margin-left: 309px;
+  font-size: 15px;
 }
 
 .searchResult:hover {

@@ -8,6 +8,7 @@ function Droid(props) {
       <img src={props.droid.image} />
       <div className='droid-basic-info'>
         (Negative numbers indicate years Before the Battle of Yavin)
+        <br></br><br></br>
         <div>{props.droid.species}</div>
         <div><u>Name:</u> {props.droid.name}</div>
         <div>{props.droid.homeWorld ?
